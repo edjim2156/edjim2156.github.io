@@ -1,4 +1,8 @@
 body{
-    background-color: ghostwhite;
+    background-color: slategrey;
 }
 
+.url{
+    color: black;
+    font-family: Georgia;
+}
