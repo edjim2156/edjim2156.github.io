@@ -1,8 +1,33 @@
 body{
-    background-color: slategrey;
+    background-color: rgb(123, 155, 187);
 }
 
-.url{
-    color: black;
+div{
+    color:white;
     font-family: Georgia;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-family: Georgia;
+    color:rgb(218, 230, 241);
+    padding: auto;
+    text-align: auto;
+}
+h1{
+    font-size: 35px;
+    font-family: Georgia;
+    padding: auto;
+    color:rgb(36, 36, 36);
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    font-family: Georgia;
+    padding: auto;
+    color:white;
+    text-align: center;
 }
