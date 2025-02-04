@@ -16,6 +16,8 @@ p{
     color:rgb(218, 230, 241);
     padding: auto;
     text-align: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 h1{
     font-size: 35px;
@@ -30,4 +32,36 @@ h2{
     padding: auto;
     color:white;
     text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+li{
+    
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+.subpoints{
+    list-style: circle;
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.listhead{
+    font-weight: bold;
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+.links a{
+    color: black;
 }
