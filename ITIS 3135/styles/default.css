@@ -74,7 +74,12 @@ li{
 }
 
 
-
 .backgrounds {
     text-align: center;
+}
+
+.caption{
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia;
 }
