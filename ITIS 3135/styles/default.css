@@ -2,14 +2,6 @@ body{
     background-color: rgb(123, 155, 187);
 }
 
-div{
-    color:white;
-    font-family: Georgia;
-    font-size: 20px;
-    padding: auto;
-    text-align: center;
-}
-
 p{
     font-size: 20px;
     font-family: Georgia;
@@ -23,7 +15,7 @@ h1{
     font-size: 35px;
     font-family: Georgia;
     padding: auto;
-    color:rgb(36, 36, 36);
+    color:rgb(30, 29, 29);
     text-align: center;
 }
 h2{
@@ -62,6 +54,27 @@ li{
     margin-left: 0;
 
 }
+.links{
+    color:white;
+    font-family: Georgia;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+
+}
+
 .links a{
     color: black;
+}
+.links a:visited{
+    color: rgb(52, 52, 52)
+}
+.links a:hover{
+    color: rgb(222, 255, 139)
+}
+
+
+
+.backgrounds {
+    text-align: center;
 }
