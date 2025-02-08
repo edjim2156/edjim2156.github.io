@@ -47,14 +47,17 @@ body{
 }
 
 .energy-can{
-   width: 900px;
+   width: 100%;
    display: block;
    height: auto;
    display: flex;
    justify-content: center;
    margin-left: auto;
    margin-right: auto;
-   margin-top: -115px;   
+   margin-top: -115px;
+   max-width: 800px;
+   object-fit: cover;
+  
 }
 
 #link-container{
@@ -74,4 +77,22 @@ footer{
     text-align: center;
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
+}
+.mascot{
+    width: 500px;
+    
+}
+#tagline{
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    margin-bottom: 125px;
+    font-size: 30px;
+    background-color: #94B9FF;
+    width: fit-content;
+    padding: 20px;
+
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
