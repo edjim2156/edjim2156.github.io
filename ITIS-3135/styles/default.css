@@ -1,0 +1,161 @@
+/* This is the default look of the three page sites for my ITIS 3135 folder */
+/* This includes the index, contract, and introduction .html files */
+
+/* This is for the background tags*/
+body{
+    background-color: rgb(96, 131, 166);
+}
+
+p{
+    font-size: 24px;
+    font-family: Georgia;
+    color: rgb(245, 245, 220);
+    
+
+    text-align: justify;
+    max-width: 800px;
+
+    padding: 15px;
+    margin: 20px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+h1{
+    font-size: 40px;
+    font-family: Georgia;
+    padding: auto;
+    color:rgb(30, 30, 30);
+    text-align: center;
+}
+h2{
+    font-size: 33px;
+    font-family: Georgia;
+    padding: 15px;
+    color: rgb(210, 210, 190);
+    text-align: center;
+    background-color: rgb(87, 99, 111);
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+    width:fit-content;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 20px;
+    font-family: Georgia;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-align: center;
+    display: block;
+    width:fit-content;
+    margin: 0 auto; 
+}
+
+nav{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a{
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+nav a:visited{
+    color: rgb(44, 44, 44);
+}
+nav a:hover{
+    color:rgb(174, 198, 207);
+}
+
+/* Design firm special style */
+
+#design-firm{
+
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+    width: 100%; 
+ }
+ 
+ #design-firm:hover{
+     color:#f3c989;
+ }
+
+
+/* These are for the contract portion */
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia;
+    font-style: italic;
+     margin: 20px;
+}
+
+section {
+    font-size: 18px;
+    font-family: Georgia;
+    
+    
+    text-align: justify;
+    max-width: 900px;
+
+    padding: 15px;
+    margin: 20px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+
+}
+section ul {
+    
+    padding-left: 30px; 
+    text-align: center; 
+    margin: 0 auto; 
+    
+}
+
+section ul li {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.bulletpoints{
+    list-style-type: circle;
+}
+
+/* Charlotte a tag styling */
+
+a{
+    margin-left: 10px;
+    text-decoration: none;
+    color:black;
+}
+
+a:visited{
+    color:rgb(158, 213, 147);
+}
+a:hover{
+    color: rgb(223, 160, 0);
+}
