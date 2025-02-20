@@ -139,6 +139,7 @@ section ul li {
     margin-bottom: 10px;
     margin-top: 5px;
     padding: 15px;
+    color: rgb(58, 58, 42);
 }
 
 .bulletpoints{
@@ -158,4 +159,24 @@ a:visited{
 }
 a:hover{
     color: rgb(223, 160, 0);
+}
+
+/* Website evaluation css */
+
+section{
+    background-color: rgb(220, 170, 160);
+    border-radius: 100px;
+    max-width: 600px;
+    padding: 30px;
+}
+
+section a{
+    font-size: 30px;
+    color: rgb(33, 32, 32);
+}
+section a:visited{
+    color: rgb(46, 45, 45);
+}
+section a:hover{
+    color: wheat;
 }
