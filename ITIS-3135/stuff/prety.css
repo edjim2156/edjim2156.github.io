@@ -1,0 +1,58 @@
+.monkey{
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+}
+
+#papyrus{
+    font-family: papyrus;
+}
+#comic-sans{
+    font-family:'Comic Sans MS';
+}
+
+ul{
+    background-color: aquamarine;
+    max-width: 500px;
+    
+    margin: 0 auto;
+}
+li{
+    
+    font-size: 30px;
+    text-decoration: underline;
+    color:#800080 ;
+}
+
+h4{
+    font-size: 20px;
+    text-align: center;
+    background-color: darkgray;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer{
+    margin: 30px;
+    padding: 40px;
+    text-align: center;
+    border: 20px solid black;
+
+    border-right: 10px;
+    border-bottom: 10px;
+}
+footer p{
+    text-decoration: underline;
+}
+
+button{
+    padding: 15px;
+    display: block;
+    margin:0 auto;
+    color: brown;
+    background-color: beige;
+}
+
