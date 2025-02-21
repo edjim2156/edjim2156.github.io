@@ -92,6 +92,12 @@ nav a:hover{
  }
  
 
+ .design-firm a{
+    color:white;
+}
+.design-firm a:visited{
+    color:white;
+}
  .design-firm a:hover{
      color:#f3c989;
  }
