@@ -242,12 +242,12 @@ section a:hover{
     #secondary-nav a{
         font-size: 13px;
     }
-    h1{
+    .heading-1{
         font-size: 25px;
         padding: 10px;
     }
 
-    h2{
+    .heading-2{
         font-size: 25px;
         padding: 10px;
     }
