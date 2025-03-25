@@ -202,6 +202,49 @@ section a:hover{
 }
 
 
+/* HTML Tables styles*/
+ol{
+    margin: 0 auto;
+    list-style: inside;
+    padding-left: 10;
+    max-width: 400px;
+}
+ol li{
+    width: 90%;
+    text-align: left;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+td{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+#complex-table thead tr{
+    background-color: darkgray;
+    color: rgb(0, 0, 0);
+}
+
+#complex-table tfoot tr{
+    background-color: darkgray;
+    color: rgb(0, 0, 0);
+}
+#complex-table tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
+#complex-table tbody tr:nth-child(even){
+    background-color: linen;
+}
+
+
+
+
+
+
 /* Media Queries */
 
 /* Laptop/Large Screens */
