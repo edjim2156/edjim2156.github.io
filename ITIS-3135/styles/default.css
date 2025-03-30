@@ -65,6 +65,11 @@ nav{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+
+    padding: 5px;
+    margin: 0 auto;
+    max-width: 850px;
+    text-align: center;
 }
 
 nav a{
@@ -110,9 +115,10 @@ nav a:hover{
  }
 
  .design-firm-container{
+    margin: 0 auto;
     text-align: center;
-    display: block;
  }
+
 
 
 /* These are for the contract portion */
