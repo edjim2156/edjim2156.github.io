@@ -246,7 +246,51 @@ td{
     background-color: linen;
 }
 
+/*CSS For the BYO Intro*/
 
+.label-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+form {
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgb(251, 191, 119);
+    border: 5px solid linen;
+    max-width: 900px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {  
+    font-size: 20px;
+    font-family: Georgia, serif;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+input {
+    width: 80%;
+    margin-left: 10px; 
+}
+
+input[type="checkbox"] {
+    width: auto; /* Prevents checkbox from stretching */
+}
+#heading-three{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(219, 209, 209);
+    color: rgb(0, 0, 0);
+}
 
 
 
