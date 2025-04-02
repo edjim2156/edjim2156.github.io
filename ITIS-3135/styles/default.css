@@ -27,6 +27,15 @@ p{
     justify-content: center;
 }
 
+header{
+    margin: 0 auto;
+    background-color: rgb(235, 212, 169);
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 
 h1{
     font-size: 40px;
@@ -80,11 +89,9 @@ nav a{
     align-items: center;
     text-decoration: none;
 }
-nav a:visited{
-    color: rgb(44, 44, 44);
-}
+
 nav a:hover{
-    color:rgb(174, 198, 207);
+    color:rgb(255, 255, 255);
 }
 
 #secondary-nav a{
@@ -120,8 +127,18 @@ nav a:hover{
  }
 
 
+/* Image CSS for Wireframe and Site Map*/
+
+#wireframe img, #sitemap img{
+    display: block;
+    max-width: 500px;
+    max-height: 500px;
+
+}
 
 /* These are for the contract portion */
+
+
 img{
     display: block;
     margin-left: auto;
@@ -180,7 +197,7 @@ a{
     color:black;
 }
 
-a:visited{
+a{
     color:rgb(158, 213, 147);
 }
 a:hover{
@@ -190,7 +207,8 @@ a:hover{
 /* Website evaluation css */
 
 section{
-    background-color: rgb(220, 170, 160);
+    background-color: rgb(218, 169, 169);
+    border: 5px solid black;
     border-radius: 100px;
     max-width: 600px;
     padding: 30px;
