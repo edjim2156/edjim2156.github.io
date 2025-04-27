@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <title>Edwin Jimenez's Personal Hobby Site</title>
+
+    <style>
+
+        /*Bottom and Top nav bars*/
+        nav{
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        nav a{
+            color: rgb(22, 22, 22);
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            align-items: center;
+            text-decoration: none;
+        }
+        nav a:hover{
+            color:rgb(174, 198, 207);
+        }
+        #secondary-nav a{
+            font-size: 18px;
+        }
+        .design-firm{
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            display: inline;
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+        }
+    
+
+        .design-firm a{
+            color:white;
+        }
+        .design-firm a:visited{
+            color:white;
+        }
+        .design-firm a:hover{
+            color:#f3c989;
+        }
+        .design-firm-container{
+            text-align: center;
+            display: block;
+        }
+
+        /*Main body nav*/
+
+        #page-two, #page-three, #page-four, #page-five, #page-six, #page-seven{
+            display: none;
+        }
+        
+        body{
+            background-color:#2A4849;
+            max-width: 2000px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        h1{
+            color: #B5CA8D;
+            text-align: center;
+            padding: 10px;
+            font-family: "monospace", "Franklin Gothic Medium";
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        #main-nav{
+            margin: 0 auto;
+            max-width: 800px;
+            max-height: 800px;
+            padding: 20px;
+            text-align: center;
+            font-family: "monospace", "Franklin Gothic Medium";
+        }
+        
+        button{
+            padding: 15px;
+            display: inline;
+            border-radius: 20px;
+
+            color:rgb(0, 0, 0);
+            background-color: rgb(200, 213, 150);
+            font-size: 20px;
+            font-family: "monospace", "Franklin Gothic Medium";
+        }
+        button:hover{
+            color: linen;
+        }
+
+        h2{
+            color: #9bad78;
+            text-align: center;
+            padding: 10px;
+        }
+
+        figure{
+            margin: 0 auto;
+            text-align: center;
+            display: block;
+            padding: 20px;
+            font-size: 15px;
+            font-family: "monospace", "Franklin Gothic Medium";
+        }
+        figcaption{
+            color:#688e5a;
+            margin-top: 15px;
+            font-size: 18px;
+            font-style: italic;
+            font-family: "monospace", "Franklin Gothic Medium";
+        }
+
+        p{
+            display: flex;
+            justify-content: center;
+            text-align: justify;
+            max-width: 750px;
+
+            width: 90%;
+            margin: 20px auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            font-size: 25px;
+            font-family: "monospace", "Franklin Gothic Medium";
+            color:linen;
+        }
+
+        iframe{
+           padding: 30px;
+           max-width: 600px;
+           max-height: 550px;
+           display: flex;
+           justify-content: center;
+           text-align: justify;
+
+           margin: 0 auto;
+
+        }
+
+        ul{
+            margin: 0 auto;
+            max-width: 550px;
+        }
+        ul li{
+            padding: 20px;
+            font-size: 20px;
+            color:rgb(214, 206, 197);
+            font-family: "monospace", "Franklin Gothic Medium";
+
+        }
+        form{
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+            background-color:aliceblue;
+        }
+        label{
+            font-family: "monospace", "Franklin Gothic Medium";
+            font-size: 17px;
+        }
+        .sub{
+            border-radius: 10px;
+            font-size: 17px;
+            background-color: rgb(136, 141, 145);
+        }
+        .poll-container{
+            margin: 0 auto;
+            max-width: 400px;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+            background-color:aliceblue;
+        }
+        a{
+            text-decoration: none;
+        }
+        /* Mobile device media query */
+        @media(max-width:480px){
+            body{
+                max-width: 90%;
+            }
+            body figure img{
+                max-width: 326px;
+                max-height: 326px;
+                align-items: center;
+            }
+            body iframe{
+                max-width: 300px;
+                max-height: 300px;
+                align-items: center;
+            }
+            
+
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <header>
+        <h1>
+            Edwin's Car Hobby Site
+        </h1>
+
+        <nav id="main-nav">
+            <button id="button-one" onclick="switchPage('page-one')">- Home -</button>
+            <button id="button-two" onclick="switchPage('page-two')">- About me -</button>
+            <button id="button-three" onclick="switchPage('page-three')">- Best Times -</button>
+            <button id="button-four" onclick="switchPage('page-four')">- Where -</button>
+            <button id="button-five" onclick="switchPage('page-five')">- How -</button>
+            <button id="button-six" onclick="switchPage('page-six')">- Why -</button>
+            <button id="button-seven" onclick="switchPage('page-seven')">- AI Prompts -</button>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="page-one">
+            <h2>
+                Home
+            </h2>
+            
+            <p>Welcome to my personal hobby site. Here is where you'll find more information about one of my hobbies that I enjoy.
+                I currently own a 2015 Subaru BRZ and a 1999 Honda Civic Hatchback. Below You will find pictures of both of them.
+            </p>
+            <figure>
+                <img alt="Subaru Brz in parking lot" src="images/BRZInParkinglot.png">
+                <figcaption>Full bolt ons and tune installed</figcaption>
+            </figure>
+
+            <figure>
+                <img alt="Honda Civic in parking lot" src="images/civicInParkinglot.png">
+                <figcaption>Lowered on ebay coil overs</figcaption>
+            </figure>
+        </section>
+
+        <section id="page-two">
+            <h2>
+                About me (who)
+            </h2>
+
+            <figure>
+                <img alt="Picture of me" src="images/me.png">
+                <figcaption>Outside in the snow</figcaption>
+            </figure>
+
+            <p>My name is Edwin Jimenez. I've always loved cars. As a kid I played with Hot Wheels, played the Need for Speed video games, and watched the
+                Fast and Furious movies. I really started getting into cars when I got my license and was deciding on what car to buy. During my teenage years I was able
+                to work and modify my car with my friends and being able to buy aftermarket parts. Now as a college student I don't have as much time to 
+                do these things but I still love learning new things and being able to connect with people that have the same interest.
+            </p>
+            <p>I currently only own two cars. I am currently using my BRZ as a daily since there is work that needs to be done to my Civic. The plan is to eventually have one daily and one project.
+                In the future I would like to buy another car, that being either a BMW 330CI or a Honda Del Sol.</p>
+        </section>
+
+        <section id="page-three">
+            <h2>
+                Best times (when)
+            </h2>
+
+            <p>One of best moments I had with my friends working on my BRZ with my friends and installing headers onto the car.
+               Trying to put thermal wrap around the headers, taking off the OEM headers, and running the car without to see how it would sound without headers for a minute were some of the highlights of that night.
+               After installing the headers I was final able to run the car.
+            </p>
+            <p>
+                One of my favorite moments with my Civic was when my girlfriend and I gave it a deep clean. Being a 1999 model, it needed some TLC inside and out.
+                Stripping out the interior and seeing the bare metal was a unique experience. Power washing the carpets and steam cleaning the plastics was satisfying.
+                Seeing all the dirt and stains come out made the car feel brand new.
+            </p>
+            <figure>
+                <img alt="Removed civic backseats" src="images/backSeatsRemoved.png">
+                <figcaption>Removed front and backseats</figcaption>
+            </figure>
+
+        </section>
+
+        <section id="page-four">
+            <h2>
+                Where
+            </h2>
+            <p>Below are some tracks that are near the Charlotte area. The first one is the Charlotte Motor Speedway.
+                At the Speedway they have the "U-Drive Experience" which allows you to bring your own car around the track for a couple of laps.
+                The second track is Carolina Motor sports Park. There are lots of activities to do here and they also allow you to bring your own car
+                onto the track.
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.16287223428!2d-80.68919892422694!3d35.35160407269545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541b1b8903cb8b%3A0x35d0f19562c2dfdf!2sCharlotte%20Motor%20Speedway!5e0!3m2!1sen!2sus!4v1742247155872!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.583962023798!2d-80.59864592426474!3d34.48807697299603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8855e8258e57e8e9%3A0xf0f2b15d55c6282e!2sCarolina%20Motorsports%20Park!5e0!3m2!1sen!2sus!4v1742246902182!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+
+        <section id="page-five">
+            <h2>
+               How
+            </h2>
+
+            <p>As my hobby grew I was able to learn new things about the automotive world. Being able to work on my own car has been a learning experience.
+                Most of my knowledge has been hands on and simple installations. Looking at youtube videos and forums has been helpful in fixing mistakes and issues
+                that occur. Having friends around with formal experience has also helped me better understand more concepts than what I would learn by myself.
+            </p>
+            <p>One of the biggest challenges that I have faced doing an engine swap on my Civic.
+                My friend and I worked together to pull out an engine and installing a new one.
+            </p>
+            <figure>
+                <img alt="engine pulled out" src="images/d16y7EnginePulled.png">
+                <figcaption>Removed the engine from the Civic</figcaption>
+            </figure>
+
+            
+        </section>
+
+        <section id="page-six">
+            <h2>
+               Why
+            </h2>
+            <p>
+               There are many reasons why I got into this hobby. To start of with I love the joy of driving.
+               Being able to shift through every gear and take corners makes it fun and exciting. You don't need a fast car to have fun.
+               Another reason I enjoy this is because I am able to do work on my cars and have something to show for. Whether its maintaining the car
+               or adding modifications, you can always see results.
+            </p>
+            
+            <form id="why-form">
+                <label for="why-input">Why do you love cars?</label>
+                <input type="text" id="why-input" name="why-input" placeholder="Your reason here...">
+                <button class="sub" type="submit">Submit</button>
+            </form>
+
+            <p>What's the best part about working on cars?</p>
+            <div class="poll-container">
+            <label>
+                <input type="radio" name="best-part" value="fixing"> Fixing and problem-solving
+            </label><br>
+            <label>
+                <input type="radio" name="best-part" value="modding"> Modding and customization
+            </label><br>
+            <label>
+                <input type="radio" name="best-part" value="driving"> Driving and feeling the results
+            </label><br>
+            <label>
+                <input type="radio" name="best-part" value="friends"> Working with friends
+            </label><br>
+            <button class="sub" type="button">Vote</button>
+            </div>
+            
+            
+        </section>
+
+        <section id="page-seven">
+            <h2>
+               AI Prompts
+            </h2>
+            <figure>
+                <img alt="ChatGPT-Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ChatGPT-Logo.svg/240px-ChatGPT-Logo.svg.png">
+                <figcaption>ChatGPT-Logo from Wiki</figcaption>
+            </figure>
+
+
+            <p>Below is the list of prompts that I used to help me complete this project. Most of the code was made by me except
+                for the JS function, the "why-form" and "why poll".
+            </p>
+                
+            <ul>
+                <li>"Help me propagate my html sections, I want to see what the boilerplate should look like.</li>
+                <li>"Help me out here, what are some 'things' I should I talk about for my home section?"</li>
+                <li>"I don't have to many pictures of what I have worked on but, I've done work with my friends. What should I include?"</li>
+                <li>"Help me improve my switchPage function"</li>
+                <li>"What content can I include in the 'why' section?"</li>
+            </ul>
+        </section>
+    </main>
+
+    <div data-include="../components/footer.html"></div>
+
+    <script>
+
+    /*Function was implemented using ChatGPT*/
+    function switchPage(buttonID) {
+    // Hide all sections
+    let sections = document.querySelectorAll("main section");
+    sections.forEach((section) => {
+        section.style.display = "none";
+    });
+
+    // Show the selected section
+    let nextSection = document.getElementById(buttonID);
+    if (nextSection) {
+        nextSection.style.display = "block";
+    }
+}
+
+
+
+    </script>
+
+<script src="../scripts/HTMLInclude.min.js"></script>
+</body>
+</html>

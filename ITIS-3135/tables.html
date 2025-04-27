@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edwin Jimenez's Ecstatic Jaguar | ITIS 3135 | Tables</title>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+
+<body>
+    
+     <div data-include="components/header.html"></div>
+    
+
+    <main>
+        <h2>HTML Tables</h2>
+
+        <h3>My Tabular Data</h3>
+        <div class="tabel-container">
+        <ol>
+            <li>Edwin Jimenez ejimen10@charlotte.edu 20</li>
+            <li>Walter White wWhite@gmail.com 50</li>
+            <li>Son Goku sGoku@capsuleCorp.com 10</li>
+            <li>John Jones jJones@imaginedOrder.gov 30</li>
+            <li>Mark Grayson mGrayson@invincibleInc.org 5</li>
+            <li>Frank Heffley fHeffley@gmail.com 15</li>
+            <li>Jotaro Kujo jKujo@gmail.com 3</li>
+        </ol>
+
+        <h3>Employee Data in Simple Table</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>Edwin Jimenez</td>
+                <td>ejimen10@charlotte.edu</td>
+                <td>$100,000</td>
+            </tr>
+            <tr>
+                <td>Walter White</td>
+                <td>wWhite@gmail.com</td>
+                <td>$80,000,000</td>
+            </tr>
+            <tr>
+                <td>Son Goku</td>
+                <td>sGoku@capsuleCorp.com</td>
+                <td>$1,000,000</td>
+            </tr>
+            <tr>
+                <td>John Jones</td>
+                <td>jJones@imaginedOrder.gov</td>
+                <td>$80,000</td>
+            </tr>
+            <tr>
+                <td>Mark Grayson</td>
+                <td>mGrayson@invincibleInc.org</td>
+                <td>$30,000</td>
+            </tr>
+            <tr>
+                <td>Frank Heffley</td>
+                <td>fHeffley@gmail.com</td>
+                <td>$50,000</td>
+            </tr>
+            <tr>
+                <td>Jotaro Kujo</td>
+                <td>jKujo@gmail.com</td>
+                <td>$50,000</td>
+            </tr>
+        </table>
+        </div>
+
+        <h3>Employee Data in Complex Table</h3>
+
+        <figure id="complex-table">
+        <figcaption>Employee Information</figcaption>
+        <div class="tabel-container">
+        <table>
+            <thead>
+            <tr>
+                <th>Category</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Salary</th>
+                <th>Years of Service</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="2">Science</td>
+                <td>Edwin Jimenez</td>
+                <td>ejimen10@charlotte.edu</td>
+                <td>$100,000</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Walter White</td>
+                <td>wWhite@gmail.com</td>
+                <td>$80,000,000</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Saiyan</td>
+                <td>Son Goku</td>
+                <td>sGoku@capsuleCorp.com</td>
+                <td>$1,000,000</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Government</td>
+                <td>John Jones</td>
+                <td>jJones@imaginedOrder.gov</td>
+                <td>$80,000</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Mark Grayson</td>
+                <td>mGrayson@invincibleInc.org</td>
+                <td>$30,000</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Dad</td>
+                <td>Frank Heffley</td>
+                <td>fHeffley@gmail.com</td>
+                <td>$50,000</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Star Dust Crusader</td>
+                <td>Jotaro Kujo</td>
+                <td>jKujo@gmail.com</td>
+                <td>$50,000</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Salary:</td>
+                <td colspan="2">$82,310,000</td>
+            </tr>
+        </tfoot>
+        </table>
+        </div>
+        </figure>
+    </main>
+
+
+    <div data-include="components/footer.html"></div>
+
+
+    <script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>

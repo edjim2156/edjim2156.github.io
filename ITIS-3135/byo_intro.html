@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edwin Jimenez's Ecstatic Jaguar | ITIS 3135 | BYO Intro</title>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+
+<body>
+    <div data-include="components/header.html"></div>
+    
+    <main>
+        <h2>Build Your Own Intro</h2>
+        <h3 id="heading-three">Time to BYO Intro page, please fill out the form below so we can create your own page.</h3>
+
+        <form id="intro-form">
+            <div class="label-input-container">
+                <label for="name-input">Enter your name:</label>
+                <input type="text" id="name-input" required><br>
+            </div>
+
+            <div class="label-input-container">
+                <label for="mascot">Enter your mascot:</label>
+                <input type="text" id="mascot" required><br>
+            </div>
+
+            <div class="label-input-container">
+                <label for="file-upload">Upload an Image (PNG or JPG):</label>
+                <input type="file" id="file-upload" accept="image/png, image/jpeg">
+                <p id="file-error" style="color: red; display: none;">Invalid file type. Please upload a PNG or JPG.</p>
+            </div>
+
+            <div class="label-input-container">
+                <label for="image-caption">Enter the image caption:</label>
+                <input type="text" id="image-caption" required><br>
+            </div>
+            
+            <div class="label-input-container">
+                <label for="personal-background">Enter your personal background:</label>
+                <input type="text" id="personal-background" required><br>
+            </div>
+
+            <div class="label-input-container">
+                <label for="professional-background">Enter your professional background:</label>
+                <input type="text" id="professional-background" required><br>
+            </div>
+
+            <div class="label-input-container">
+                <label for="academic-background">Enter your academic background:</label>
+                <input type="text" id="academic-background" required><br>
+            </div>
+
+            <div class="label-input-container">
+                <label for="webdev-background">Enter your web development background:</label>
+                <input type="text" id="webdev-background" required><br>
+            </div>
+
+            <div class="label-input-container">
+                <label for="primary-computer">Enter your primary computer:</label>
+                <input type="text" id="primary-computer" required><br>
+            </div>
+
+            <div class="label-input-container">
+                <label id="classes-label">Enter your classes:</label>
+                <div id="course-container">
+                </div>
+                <button type="button" id="add-class-btn">Add Another Class</button><br>
+            </div>
+
+            <div class="label-input-container">
+                <label for="funny-thing">Anything funny?</label>
+                <input type="text" id="funny-thing"><br>
+            </div>
+
+            <div class="label-input-container">
+                <label for="anything-else">Anything else?</label>
+                <input type="text" id="anything-else"><br>
+            </div>
+
+            <div class="label-input-container">
+                <label for="check">"I understand that what is on this page is not password protected and I will not put anything here that I don't want publicly available."</label>
+                <input type="checkbox" id="check" required><br>
+            </div>
+
+            <div class="label-input-container">
+                <input id="submit-button" type="submit" value="Submit">
+                <input id="reset-button" type="reset" value="Reset">
+            </div>
+        </form>
+
+        <div id="generated-content-container" style="display:none;"></div>
+    </main>
+
+    <div data-include="components/footer.html"></div>
+
+
+    <script src="scripts/survey.js"></script>
+    <script src="scripts/HTMLInclude.min.js"></script>
+
+</body>
+</html>

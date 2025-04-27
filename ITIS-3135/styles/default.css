@@ -1,0 +1,560 @@
+/* This is the default look of the three page sites for my ITIS 3135 folder */
+/* This includes the index, contract, and introduction .html files */
+
+/* This is for the background tags*/
+body{
+    background-color: rgb(96, 131, 166);
+    max-width: 2000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+p{
+    font-size: 24px;
+    font-family: Georgia;
+    color: rgb(245, 245, 220);
+    
+
+    text-align: justify;
+    max-width: 800px;
+
+    padding: 15px;
+    margin: 20px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    margin: 0 auto;
+    background-color: rgb(235, 212, 169);
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+h1{
+    font-size: 40px;
+    font-family: Georgia;
+    padding: auto;
+    color:rgb(30, 30, 30);
+    text-align: center;
+}
+h2{
+    font-size: 33px;
+    font-family: Georgia;
+    padding: 15px;
+    color: rgb(210, 210, 190);
+    text-align: center;
+    background-color: rgb(87, 99, 111);
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+    width:fit-content;
+    margin: 0 auto;
+    border: 3px solid rgb(210, 201, 193)
+}
+
+h3{
+    font-size: 20px;
+    font-family: Georgia;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-align: center;
+    display: block;
+    width:fit-content;
+    margin: 0 auto; 
+}
+
+nav{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 5px;
+    margin: 0 auto;
+    max-width: 850px;
+    text-align: center;
+}
+
+nav a{
+    color: rgb(44, 44, 44);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:rgb(255, 255, 255);
+}
+
+#secondary-nav a{
+    font-size: 18px;
+}
+
+/* Design firm special style */
+
+.design-firm{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+ }
+ 
+
+ .design-firm a{
+    color:white;
+}
+.design-firm a:visited{
+    color:white;
+}
+ .design-firm a:hover{
+     color:#f3c989;
+ }
+
+ .design-firm-container{
+    margin: 0 auto;
+    text-align: center;
+ }
+
+
+/* Image CSS for Wireframe and Site Map*/
+
+#wireframe img, #sitemap img{
+    display: block;
+    max-width: 500px;
+    max-height: 500px;
+
+}
+
+/* These are for the contract portion */
+
+figcaption{
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia;
+    font-style: italic;
+     margin: 20px;
+}
+
+section {
+    font-size: 18px;
+    font-family: Georgia;
+    
+    
+    text-align: justify;
+    max-width: 900px;
+
+    padding: 15px;
+    margin: 20px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+
+}
+section ul {
+    padding-left: 0px; 
+    list-style-position: inside;
+    text-align: center; 
+    margin: 0 auto; 
+    
+}
+
+section ul li {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 5px 15px;
+    color: rgb(58, 58, 42);
+
+}
+
+/* Charlotte a tag styling */
+
+a{
+    margin-left: 10px;
+    text-decoration: none;
+    color:black;
+}
+
+a{
+    color:rgb(158, 213, 147);
+}
+a:hover{
+    color: rgb(223, 160, 0);
+}
+
+/* Website evaluation css */
+
+section{
+    background-color: rgb(218, 169, 169);
+    border: 5px solid rgb(82, 82, 82);
+    border-radius: 40px;
+    max-width: 600px;
+    padding: 30px;
+}
+
+section a{
+    font-size: 30px;
+    color: rgb(33, 32, 32);
+}
+section a:visited{
+    color: rgb(46, 45, 45);
+}
+section a:hover{
+    color: wheat;
+}
+
+
+/* HTML Tables styles*/
+ol{
+    margin: 0 auto;
+    list-style: inside;
+    padding-left: 10;
+    max-width: 400px;
+}
+ol li{
+    width: 90%;
+    text-align: left;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+td{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+#complex-table thead tr{
+    background-color: darkgray;
+    color: rgb(0, 0, 0);
+}
+
+#complex-table tfoot tr{
+    background-color: darkgray;
+    color: rgb(0, 0, 0);
+}
+#complex-table tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
+#complex-table tbody tr:nth-child(even){
+    background-color: linen;
+}
+
+/*CSS For the BYO Intro*/
+
+.label-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+form {
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgb(251, 191, 119);
+    border: 5px solid linen;
+    max-width: 900px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {  
+    font-size: 20px;
+    font-family: Georgia, serif;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+input {
+    width: 80%;
+    margin-left: 10px; 
+}
+
+input[type="checkbox"] {
+    width: auto; /* Prevents checkbox from stretching */
+}
+#heading-three{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(219, 209, 209);
+    color: rgb(0, 0, 0);
+}
+
+
+/*Slideshow CSS*/
+
+.slideshow-container {
+    position: relative;
+    margin-top: 50px;  
+    margin-bottom: 50px;
+    padding: 15px;
+    background-color: rgb(83, 82, 82);
+    border: 3px solid linen;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+
+.slideshow-container #previous,
+.slideshow-container #next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.3s;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
+}
+
+.slideshow-container #prev:hover,
+.slideshow-container #next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.slideshow-container #previous {
+    left: 10px;
+}
+
+.slideshow-container #next {
+    right: 10px;
+}
+
+.thumbnail-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    scrollbar-width: none;
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);     
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.thumbnail-container::-webkit-scrollbar {
+    display: none;
+}
+
+.thumbnail-container img {
+    max-width: 100px;
+    max-height: 100px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.thumbnail-container img:hover,
+.thumbnail-container .active {
+    opacity: 1;
+    border-color: linen;
+}
+
+.slides img{
+    max-width: 400px;
+    max-height: 400px;
+    
+}
+.slides figcaption{
+    font-size: 30px;
+    color: wheat;
+}
+
+
+
+/* Drawing page */
+
+.drawing-words{
+    color: rgb(103, 103, 103);
+    display: inline;
+    font-size: 30px;
+    padding: 10px;
+ }
+
+ .drawing-words a{
+    color:rgb(214, 104, 148);
+    padding: 3px;
+}
+ .drawing-words a:hover{
+     color:#ffffff;
+ }
+
+ .drawing-words-container{
+    margin: 0 auto;
+    text-align: justify;
+    background-color: rgb(44, 44, 44);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 3px solid white;
+    max-width: 900px;
+ }
+
+#js-drawing-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+canvas {
+  display: inline-block;
+}
+
+/* Peer Review */
+
+.peer-review{
+    max-width: 79%;
+    max-height: 79%;
+}
+
+
+
+
+/* Media Queries */
+
+/* Laptop/Large Screens */
+@media(max-width: 1200px){
+    body{
+        max-width: 1200px;
+    }
+    nav a {
+        font-size: 18px;
+    }
+}
+/* Tablets and Small Screens*/
+@media (max-width: 768px) {
+    body {
+        max-width: 90%;
+       
+    }
+    img{
+        max-width: 350px;
+        max-height: 350;
+    }
+    table {
+        font-size: 0.9em;
+    }
+
+    th, td {
+        padding: 6px 8px;
+    }
+   
+}
+
+/* Phone screens */
+@media(max-width: 480px){
+    body{
+         max-width: 90%;
+    }
+    body figure img{
+        max-width: 250px;
+        max-height: 250px;
+        margin: 0 auto;
+        
+    } 
+    .slideshow-container img{
+        max-width: 261px;
+        max-height: 261px;
+    }
+    .thumbnail-container img{
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    #wireframe img, #sitemap img{
+        max-width: 130%;
+        max-height: 130%;
+        align-items: center;
+    }
+    p{
+        font-size: 15px;
+    }
+    nav a{
+        font-size: 12px;
+        padding: 15px
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #secondary-nav a{
+        font-size: 13px;
+    }
+    .heading-1{
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .heading-2{
+        font-size: 25px;
+        padding: 10px;
+    }
+    .design-firm{
+        font-size: 12px;
+        
+    }
+    section{
+        font-size: 12px;
+        max-width: 300px;
+    }
+    section ul {
+    
+        padding-left: 10px; 
+        text-align: center; 
+        margin: 0 auto; 
+        
+    }
+    
+    section ul li {
+        margin-bottom: 10px;
+        margin-top: 5px;
+        padding: 10px;
+        color: rgb(58, 58, 42);
+    }
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    table {
+        width: 80%;
+        min-width: 400px;
+        border-collapse: collapse;
+    }
+
+}
+
