@@ -107,6 +107,11 @@ nav a:hover{
     font-size: 18px;
 }
 
+#validation_link{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
 /* Design firm special style */
 
 .design-firm{
