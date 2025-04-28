@@ -7,7 +7,7 @@ async function fetchListings() {
         const container = document.getElementById('listings');
         
         container.innerHTML = items.length ? 
-            items.map(item => `
+            items.map((item) => `
                 <div class="listing">
                     <a href="${item.viewItemURL}" target="_blank">
                         <img src="${item.pictureURLLarge}" alt="${item.title}">
