@@ -107,7 +107,7 @@ nav a:hover{
     font-size: 18px;
 }
 
-#validation_link{
+.validation_link{
     display: inline-block;
     align-items: center;
     text-align: center;
