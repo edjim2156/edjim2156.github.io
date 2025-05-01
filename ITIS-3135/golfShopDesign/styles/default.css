@@ -90,6 +90,14 @@ footer p{
     height: 90%;
     box-sizing: border-box;
 }
+.images-column img {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+  
 /* Styling the products page/gallery */
 
 .gallery {
