@@ -1,4 +1,30 @@
 /* Basic styling for generic tag elements*/
+/* Font classes */
+.saira {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Adjust weight as needed */
+  font-style: normal;
+}
+
+.urbanist {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+
 body{
     max-width: 2000px;
     width: 95%;
@@ -6,11 +32,28 @@ body{
     align-items: center;
     background-color: #4F9153;
     color: white;
+    font-family: "saira", sans-serif;
 }
 
+header {
+    width: 100%;
+    background-color: #3a6b40;
+    color: white;
+    padding: 20px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.header-inner {
+    max-width: 2000px;
+    width: 95%;
+    margin: 0 auto;
+}
+ 
 h1{
     font-size: 55px;
     text-align: center;
+    font-family: "Urbanist", sans-serif;
 }
 
 nav{
@@ -19,18 +62,52 @@ nav{
     max-width: 100%;
     gap: 80px;
     font-size: 35px;
-    padding: 20px;
+    padding: 1px;
     text-align: center;
 }
-
-nav a{
-    color:wheat;
-    padding: 20px;
+nav a {
+    color: wheat;
+    padding: 10px 20px;
+    margin: 5px;
     text-decoration: none;
+    display: inline-block;
+}  
+nav a:hover {
+    color: rgb(252, 252, 252);
+    background-color: #2f4f4f;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 10px;
 }
+.nav-wrapper {
+    background-color: rgb(62, 63, 69);
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; /* Ensure horizontal layout */
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}  
+
+.logo {
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 600px;
+    margin-right: 20px;
+}  
 
 h2{
     font-size: 40px;
+    font-family: "Urbanist", sans-serif;
+
 }
 #center-heading-two{
     text-align: center;
@@ -44,25 +121,29 @@ p{
 img{
     max-width: 700px;
     max-height: 700px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px rgb(29, 29, 29);
 }
 
-footer{
-    text-align: center;
+footer {
+  width: 100%;
+  background-color: #3a6b40;
+  border-radius: 10px;
+
 }
-footer p{
-    color: rgb(235, 219, 219);
-    padding: 15px;
+.footerContent {
+  max-width: 1200px; /* or your site width */
+  margin: 0 auto;
+  text-align: center;
+}
+footer p {
+  color: rgb(235, 219, 219);
 }
 
-.logo{
-    max-width: 75px;
-    max-height: 75px;
-    border-radius: 600px;
+iframe{
+    border-radius: 15px;
 }
 
-.wrapper{
-    background-color: rgb(62, 63, 69);
-}
 
 /* Styling to create column like structures for left text and right images */
 .columns{
@@ -80,6 +161,7 @@ footer p{
     align-items: center;
     max-width: 90%;
     padding: 20px;
+
 }
 .images-column{
     display: flex;
