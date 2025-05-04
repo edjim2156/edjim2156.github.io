@@ -18,6 +18,16 @@
   
 
   <main>
+
+  <div id="slideshowModal" class="modal">
+    <span class="close">&times;</span>
+    <span id="arrow-left" class="arrow">&#10094;</span>
+    <img class="modal-content" id="modalImage" src="#" alt="placeholder">
+    <p id="modal-caption" style="color: white; margin-top: 10px;"></p>
+    <span id="arrow-right" class="arrow">&#10095;</span>
+  </div>
+
+
     <div class="columns">
 
       <div class="text-column">
@@ -35,51 +45,16 @@
       <div class="images-column">
 
         <div class="gallery">
-
-          <div class="product">
-            <figure>
-              <img src="images/manSwinging.jpg" alt="Golf Club 1">
-              <figcaption>Driver - $50</figcaption>
-            </figure>
+          <span id="gallery-arrow-left" class="arrow">&#10094;</span>
+        
+          <div class="gallery-main">
+            <img id="main-gallery-image" src="images/image3.png" alt="Featured Product">
+            <p id="main-caption">Golf Club 1</p>
           </div>
-
-          <div class="product">
-            <figure>
-              <img src="images/manSwinging.jpg" alt="Golf Club 1">
-              <figcaption>Driver - $50</figcaption>
-            </figure>
-          </div>
-
-          <div class="product">
-            <figure>
-              <img src="images/manSwinging.jpg" alt="Golf Club 1">
-              <figcaption>Driver - $50</figcaption>
-            </figure>
-          </div>
-
-          <div class="product">
-            <figure>
-              <img src="images/manSwinging.jpg" alt="Golf Club 1">
-              <figcaption>Driver - $50</figcaption>
-            </figure>
-          </div>
-
-          <div class="product">
-            <figure>
-              <img src="images/manSwinging.jpg" alt="Golf Club 1">
-              <figcaption>Driver - $50</figcaption>
-            </figure>
-          </div>
-
-          <div class="product">
-            <figure>
-              <img src="images/manSwinging.jpg" alt="Golf Club 1">
-              <figcaption>Driver - $50</figcaption>
-            </figure>
-          </div>
-
-
-        </div>
+        
+          <span id="gallery-arrow-right" class="arrow">&#10095;</span>
+        </div>        
+        
       </div>
     </div>
 
@@ -88,5 +63,7 @@
   
   <div data-include="components/footer.html"></div>
   <script src="scripts/HTMLInclude.min.js"></script>
+  <script src="scripts/gallery.js"></script>
+
 </body>
 </html>

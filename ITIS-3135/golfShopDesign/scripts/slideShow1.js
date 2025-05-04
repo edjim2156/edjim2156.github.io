@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
   const slideshowImages = [
-    "images/background.jpg",
     "images/background1.png",
     "images/image1.png",
     ];
@@ -19,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       imgElement.src = slideshowImages[slideIndex];
       imgElement.style.opacity = 1; // fade in
     }, 500); // wait for fade-out before changing image
-  }
+    }
   
   // Auto change every 5 seconds
   setInterval(showNextSlide, 5000);
