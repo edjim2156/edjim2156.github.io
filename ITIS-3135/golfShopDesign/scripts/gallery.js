@@ -1,11 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
   const imageData = [
-    { src: "images/image3.png", caption: "Callaway XR Driver" },
-    { src: "images/image4.png", caption: "Titleist AP2 Irons" },
-    { src: "images/image5.png", caption: "Ping G410 Hybrid" },
-    { src: "images/image6.png", caption: "TaylorMade Spider Putter" },
-    { src: "images/image7.png", caption: "Cobra King Wedges" },
-    { src: "images/image8.png", caption: "Mizuno JPX900 Fairway Wood" }
+    { src: "images/image3.png", caption: "Golf balls price ranging from $5/Dozen - $12/Dozen"},
+    { src: "images/image4.png", caption: "Pictured Scotty Cameron Putter" },
+    { src: "images/image5.png", caption: "Assortment of drivers ranging from $50 - $400" },
+    { src: "images/image8.png", caption: "Assorted Golf Sets" },
+    { src: "images/image12.png", caption: "Assorted Wedges"},
+    { src: "images/image18.png", caption: "Assorted Hybrids"},
+    { src: "images/image21.png", caption: "Assorted Drivers"},
+    { src: "images/image13.png", caption: "Assorted Golf Clubs (Women's, Left handed, etc)"}
   ];
 
   let currentIndex = 0;

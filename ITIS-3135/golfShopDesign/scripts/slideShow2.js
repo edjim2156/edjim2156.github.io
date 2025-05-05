@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const slideshowImages = [
     "images/background1.png",
-    "images/image1.png",
+    "images/image1.png"
     ];
   
   let slideIndex = 0;
