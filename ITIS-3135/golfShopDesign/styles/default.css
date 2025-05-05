@@ -346,6 +346,8 @@ iframe{
 #about-owner img{
     margin: 0 auto;
     display: flex;
+    max-width: 600px;
+    height: 600px;
 }
 /* Special styling for Contact, iframe column and picture */
 #special-image{
