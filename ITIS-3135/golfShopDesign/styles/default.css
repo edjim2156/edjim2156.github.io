@@ -103,6 +103,12 @@ nav a:hover {
     border-radius: 600px;
     margin-right: 20px;
 }  
+.mobile-logo{
+    display: none;
+    max-height: 140px;
+    border-radius: 600px;
+    margin-right: 20px;
+}
 
 h2{
     font-size: 40px;
@@ -361,4 +367,168 @@ iframe{
     padding: 20px;
     max-width: 400px;
 }
+.menu-toggle{
+    display: none;
+}
 
+/* Media Queries */
+
+/* Laptop/Large Screens */
+@media(max-width: 1200px){
+    html, body{
+        max-width: 1200px;
+    
+    }
+
+    img{
+        max-width: 545px;
+        max-height: 550px;
+    }
+
+    p{
+        font-size: 24px;
+    }
+    nav a{
+        padding: 3px;
+        font-size: 30px;
+    }
+    .nav-wrapper{
+        padding: 15px;
+    }
+
+    .logo{
+        max-width: 131px;
+    }
+
+    #iframe-include{
+        max-height: 700px;
+        max-width: 400px;
+    }
+   
+    iframe{
+        max-width: 350px;
+        max-height: 500px;
+    }
+    #special-image{
+        max-width: 500px;
+        max-height: 500px;
+    }
+    #background{
+        max-width: 500px;
+        max-height: 480px;
+    }
+
+}
+
+/*  Bridge between laptop/horizontal tablet to  tablet */
+@media (max-width: 992px) {
+    html, body {
+        max-width: 992px;
+    }
+    img{
+        max-width: 450px;
+        max-height: 500px;
+    }
+    p{
+        font-size: 18px;
+    }
+    nav a{
+        padding: 2px;
+        font-size: 24px;
+    }
+    .logo{
+        max-width: 90px;
+    }
+
+    .gallery{
+        max-width: 500px;
+        max-height: 500px;
+    }
+    #main-gallery-image{
+        max-width: 350px;
+        max-height: 350px;
+    }
+    .gallery p{
+        font-size: 13px;
+    }
+
+    #iframe-include{
+        max-width: 400px;
+    }
+
+    iframe{
+        max-width: 300px;
+        max-height: 265px;
+    }
+    #special-image{
+        max-width: 400px;
+    }
+    #background{
+        max-width: 400px;
+        max-height: 420px;
+    }
+
+}
+
+
+/*  Tablet sized screens */
+@media(max-width: 768px) {
+    html, body{
+        max-width: 768px;
+ 
+    }
+    img{
+        margin-top: 30px;
+        max-width: 350px;
+        max-height: 450px;
+    }
+    p{
+        font-size: 20px;
+    }
+
+    nav a{
+        padding: 3px;
+        font-size: 20px;
+
+    }      
+    .nav-wrapper{
+        padding: 24px;
+    }
+
+    .logo{
+        max-width: 100px;
+        margin-top: 10px;
+    }
+
+    .gallery{
+        max-width: 700px;
+        max-height: 700px;
+    }
+    #main-gallery-image{
+        max-width: 475px;
+        max-height: 400px;
+    }
+    .gallery p{
+        font-size: 20px;
+    }
+
+    #iframe-include{
+        max-height: 450px;
+        max-width: 425px;
+    }
+   
+    iframe{
+        max-width: 250px;
+        max-height: 250px;
+    }
+    #special-image{
+        max-width: 475;
+        max-height: 550px;
+    }
+    #background{
+        max-width: 400px;
+        max-height: 400px;
+    }
+    
+}
+/* Mobile styles (576px and below) */
