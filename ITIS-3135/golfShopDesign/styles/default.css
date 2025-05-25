@@ -138,7 +138,7 @@ footer {
 
 }
 .footerContent {
-  max-width: 1200px; /* or your site width */
+  max-width: 1200px; 
   margin: 0 auto;
   text-align: center;
 }
@@ -532,3 +532,127 @@ iframe{
     
 }
 /* Mobile styles (576px and below) */
+/* @media(max-width: 576px){
+    body{
+        max-width: 576px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+    
+    img{
+        max-width: 300px;
+        max-height: 400px;
+    }
+
+    .logo{
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    nav a{
+        font-size: 13px;
+    }
+
+    .text-column{
+        max-width: 300px;
+    }
+    .images-column{
+        max-width: 300px;
+        max-height: 400px;
+    }
+
+    .gallery{
+        width: 500px;
+        height: 500px;
+        left: 10px
+    }
+    .gallery p {
+        font-size: 8px;
+    }
+
+    #main-gallery-image{
+        max-width: 450px;
+        max-height: 450px;
+    }
+
+
+} */
+
+
+
+/* Nav bar style */
+@media(max-width: 576px){
+    body{
+        max-width: 576px;
+    }
+    .logo{
+        display: none;
+    }
+
+    
+    .mobile-logo{
+        display: inline;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .nav-wrapper{
+        width: 70%;
+    }
+    .nav-links a{
+        display: inline-block;
+    }
+    .nav-links.show{
+        display: inline-block;
+    }
+
+
+
+    footer {
+        width: 90%;
+        background-color: #3a6b40;
+        border-radius: 20px;
+        padding: 30px;
+        margin-top: 100px;
+    }
+    .footerContent {
+        max-width: 100%;
+        text-align: center;
+    }
+    footer p {
+        font-size: 14px;
+        color: rgb(235, 219, 219);
+    }
+
+
+    img{
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .columns{
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .text-column, .images-column{
+        max-width: 400px;
+        margin-top: 0;
+        
+    }
+    .images-column img{
+        width: 325px;
+        height: 325px;
+    }
+    #iframe-include{
+        margin: 0 auto;
+        text-align: center;
+    }   
+
+}
+@media(max-width: 400px){
+    footer{
+        display: none;
+    }
+}
